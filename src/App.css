@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.places-container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 300px;
+}
+
+.map-container {
+  width: 98%;
+  height: 75vh;
+  margin: 15vh auto 0 auto; /* 15% margin at the top, auto margins for left/right to center */
+  position: relative;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
